@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Jacquard+12+Charted&display=swap');
+
+body{
+    background-color: mediumseagreen;
+    background-image: url(../Imagens/mario.jpg);
+    background-size:500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: justify;
+    text-indent: 35px;
+    font-weight: 600;
+    font-size: 1.25em;
+    font-family: "Briem Hand", cursive;
+}
+
+p{
+    color: red;
+}
+
+h2{
+    color: rgba(0,0,0,0.75);
+}
+
+#segundo-paragrafo{
+    color: chocolate;
+}
+
+.among{
+    color: blueviolet;
+}
+
+.valorant{
+    color: black;
+}
+
+#quarto{
+    color: palegoldenrod;
+}
+
+#among{
+    border-radius: 60px;
+    margin: 60px;
+}
+
+button{
+    margin-left: 100px;
+    padding-left: 30px;
+}
+
+video{
+    width: 700px;
+}
+
+#caixa-mae{
+    background-color: blue;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#filho1{
+    background-color: yellow;
+    height: 200px;
+    width: 30%;
+}
+
+#filho2{
+    background-color: red;
+    height: 200px;
+    width: 30%;
+    margin-right: 15%;
+}
+
+#filho3{
+    background-color: green;
+    height: 200px;
+    width: 30%;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    font-size: 1.5em;
+
+}
+
+#links{
+    align-items: center;
+    margin-top: 0.75%;
+    margin-right: 3%;
+}
